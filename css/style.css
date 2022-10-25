@@ -48,6 +48,16 @@ section{
    height: 420px;
    padding: 5%;
 }
+.box-content-section{
+   background-color: aqua;
+   height: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+.box-content-section div{
+   background-color: blue;
+}
 footer{
    background-color:#fff;
    grid-area: footer;
